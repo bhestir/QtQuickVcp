@@ -110,6 +110,7 @@ GLView3D {
             case "RotatedTop":
             case "Front":
             case "Side":
+            case "Lathe":
                 return Camera3D.Orthographic;
             case "Perspective":
                 return Camera3D.Perspective;
